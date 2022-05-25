@@ -23,8 +23,9 @@ struct NavigationBariWithButton: ViewModifier {
                     Text("자산추가")
                         .font(.system(size: 12))
                 })
+                .frame(height: 20)
                 .tint(.black)
-                .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
+                .padding(EdgeInsets(top: 8, leading: 0, bottom: 8, trailing: 8))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black)

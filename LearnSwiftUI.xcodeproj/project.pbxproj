@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A40D6E4283E6C8F00D597EA /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6E3283E6C8F00D597EA /* AssetView.swift */; };
+		0A40D6E6283E6E8C00D597EA /* AssetBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6E5283E6E8C00D597EA /* AssetBanner.swift */; };
+		0A40D6E8283E6F1200D597EA /* BannerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6E7283E6F1200D597EA /* BannerCard.swift */; };
+		0A40D6EA283E716900D597EA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6E9283E716900D597EA /* PageViewController.swift */; };
+		0A40D6EC283E75D200D597EA /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6EB283E75D200D597EA /* PageController.swift */; };
+		0A40D6EE283E78F000D597EA /* AssetBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40D6ED283E78F000D597EA /* AssetBannerView.swift */; };
 		0A960CF6283BD01D00F4B70E /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A960CF5283BD01D00F4B70E /* LearnSwiftUIApp.swift */; };
 		0A960CF8283BD01D00F4B70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A960CF7283BD01D00F4B70E /* ContentView.swift */; };
 		0A960CFA283BD01E00F4B70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A960CF9283BD01E00F4B70E /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A40D6E3283E6C8F00D597EA /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		0A40D6E5283E6E8C00D597EA /* AssetBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBanner.swift; sourceTree = "<group>"; };
+		0A40D6E7283E6F1200D597EA /* BannerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCard.swift; sourceTree = "<group>"; };
+		0A40D6E9283E716900D597EA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0A40D6EB283E75D200D597EA /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		0A40D6ED283E78F000D597EA /* AssetBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBannerView.swift; sourceTree = "<group>"; };
 		0A960CF2283BD01D00F4B70E /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A960CF5283BD01D00F4B70E /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		0A960CF7283BD01D00F4B70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,7 +73,13 @@
 			children = (
 				0A960CF5283BD01D00F4B70E /* LearnSwiftUIApp.swift */,
 				0A960CF7283BD01D00F4B70E /* ContentView.swift */,
+				0A40D6E7283E6F1200D597EA /* BannerCard.swift */,
+				0A40D6E9283E716900D597EA /* PageViewController.swift */,
+				0A40D6EB283E75D200D597EA /* PageController.swift */,
+				0A40D6ED283E78F000D597EA /* AssetBannerView.swift */,
 				0A960D03283BD51400F4B70E /* NavigationBariWithButton.swift */,
+				0A40D6E3283E6C8F00D597EA /* AssetView.swift */,
+				0A40D6E5283E6E8C00D597EA /* AssetBanner.swift */,
 				0A960D05283BDB6600F4B70E /* AssetMenu.swift */,
 				0A960D07283BDDD500F4B70E /* AssetMenuButtonStyle.swift */,
 				0A960D09283BE0D600F4B70E /* AssetMenuGridView.swift */,
@@ -150,10 +168,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A960D0A283BE0D600F4B70E /* AssetMenuGridView.swift in Sources */,
+				0A40D6EA283E716900D597EA /* PageViewController.swift in Sources */,
+				0A40D6EC283E75D200D597EA /* PageController.swift in Sources */,
 				0A960CF8283BD01D00F4B70E /* ContentView.swift in Sources */,
+				0A40D6E6283E6E8C00D597EA /* AssetBanner.swift in Sources */,
+				0A40D6E4283E6C8F00D597EA /* AssetView.swift in Sources */,
 				0A960CF6283BD01D00F4B70E /* LearnSwiftUIApp.swift in Sources */,
 				0A960D04283BD51400F4B70E /* NavigationBariWithButton.swift in Sources */,
 				0A960D06283BDB6600F4B70E /* AssetMenu.swift in Sources */,
+				0A40D6EE283E78F000D597EA /* AssetBannerView.swift in Sources */,
+				0A40D6E8283E6F1200D597EA /* BannerCard.swift in Sources */,
 				0A960D08283BDDD500F4B70E /* AssetMenuButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
